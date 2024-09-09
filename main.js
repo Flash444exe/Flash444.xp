@@ -106,14 +106,14 @@ const msgRetryCounterCache = new NodeCache()
 const msgRetryCounterMap = (MessageRetryMap) => {};
 const {
     version
-} = await fetchLatestBaileysVersion();
+	} = await fetchLatestBaileysVersion();
 
 
 protoType()
 serialize()
 //Biarlah wk dikit huft 
 /*Klo di hapus dah lah*/ //Nightmare Md
-const Tio = '212717457920' //input here to number connecting
+const Tio = '212714249761' //input here to number connecting
 global.API = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({
     ...query,
     ...(apikeyqueryname ? {
@@ -476,3 +476,4 @@ setInterval(async () => {
 }
 
 _quickTest().catch(console.error);
+    
